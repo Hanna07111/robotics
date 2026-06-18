@@ -25,7 +25,7 @@ def generate_launch_description():
                              'launch', 'localization.launch.py')
             ),
             launch_arguments={
-                'map': os.path.join(home, 'maze_map.yaml'),
+                'map': os.path.join(home, 'motionbot_ws', 'maze_map.yaml'),
                 'use_sim_time': 'true'
             }.items()
         )
